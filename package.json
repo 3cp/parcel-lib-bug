@@ -1,0 +1,21 @@
+{
+  "name": "p",
+  "version": "0.1.0",
+  "source": "src/index.js",
+  "main": "dist/index.js",
+  "devDependencies": {
+    "mri": "latest",
+    "parcel": "latest"
+  },
+  "targets": {
+    "main": {
+      "includeNodeModules": true
+    }
+  },
+  "scripts": {
+    "build": "parcel build"
+  },
+  "engines": {
+    "parcel": "2.x"
+  }
+}
